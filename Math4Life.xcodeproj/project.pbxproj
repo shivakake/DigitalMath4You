@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		623490E729436D6900BF71D9 /* Math4LifeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623490E629436D6900BF71D9 /* Math4LifeDataModel.swift */; };
+		623490F029437F9600BF71D9 /* OperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623490EE29437F9600BF71D9 /* OperationViewController.swift */; };
+		623490F129437F9600BF71D9 /* OperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 623490EF29437F9600BF71D9 /* OperationViewController.xib */; };
+		623490F729437FC600BF71D9 /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623490F529437FC600BF71D9 /* LevelsViewController.swift */; };
+		623490F829437FC600BF71D9 /* LevelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 623490F629437FC600BF71D9 /* LevelsViewController.xib */; };
+		623490FC29437FDA00BF71D9 /* LengthsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623490FA29437FDA00BF71D9 /* LengthsViewController.swift */; };
+		623490FD29437FDA00BF71D9 /* LengthsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 623490FB29437FDA00BF71D9 /* LengthsViewController.xib */; };
+		6234910129437FF000BF71D9 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623490FF29437FF000BF71D9 /* QuestionViewController.swift */; };
+		6234910229437FF000BF71D9 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6234910029437FF000BF71D9 /* QuestionViewController.xib */; };
+		62554D7129433F8200D21C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62554D7029433F8200D21C64 /* AppDelegate.swift */; };
+		62554D7329433F8200D21C64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62554D7229433F8200D21C64 /* SceneDelegate.swift */; };
+		62554D7A29433F8C00D21C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62554D7929433F8C00D21C64 /* Assets.xcassets */; };
+		62554D7D29433F8C00D21C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62554D7B29433F8C00D21C64 /* LaunchScreen.storyboard */; };
+		62554D8F294347D800D21C64 /* MathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62554D8D294347D800D21C64 /* MathViewController.swift */; };
+		62554D90294347D800D21C64 /* MathViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62554D8E294347D800D21C64 /* MathViewController.xib */; };
+		62554D94294347EA00D21C64 /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62554D92294347EA00D21C64 /* GoalsViewController.swift */; };
+		62554D95294347EA00D21C64 /* GoalsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62554D93294347EA00D21C64 /* GoalsViewController.xib */; };
+		62554D992943480200D21C64 /* SprintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62554D972943480200D21C64 /* SprintsViewController.swift */; };
+		62554D9A2943480200D21C64 /* SprintsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62554D982943480200D21C64 /* SprintsViewController.xib */; };
+		62554D9E2943481700D21C64 /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62554D9C2943481700D21C64 /* LeaderBoardViewController.swift */; };
+		62554D9F2943481700D21C64 /* LeaderBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62554D9D2943481700D21C64 /* LeaderBoardViewController.xib */; };
+		62554DB02943544300D21C64 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62554DAE2943544300D21C64 /* SplashViewController.swift */; };
+		62554DB12943544300D21C64 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62554DAF2943544300D21C64 /* SplashViewController.xib */; };
+		62554DB62943638300D21C64 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62554DB52943638300D21C64 /* TabBarViewController.swift */; };
+		62554DBD2943691F00D21C64 /* CommonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62554DBB2943691F00D21C64 /* CommonTableViewCell.swift */; };
+		62554DBE2943691F00D21C64 /* CommonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62554DBC2943691F00D21C64 /* CommonTableViewCell.xib */; };
+		625D724C294A0EA500885D6A /* FunctionsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625D724B294A0EA500885D6A /* FunctionsHelper.swift */; };
+		6263D0BE2944640000AC97A9 /* CompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6263D0BC2944640000AC97A9 /* CompleteViewController.swift */; };
+		6263D0BF2944640000AC97A9 /* CompleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6263D0BD2944640000AC97A9 /* CompleteViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		623490E629436D6900BF71D9 /* Math4LifeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math4LifeDataModel.swift; sourceTree = "<group>"; };
+		623490EE29437F9600BF71D9 /* OperationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationViewController.swift; sourceTree = "<group>"; };
+		623490EF29437F9600BF71D9 /* OperationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OperationViewController.xib; sourceTree = "<group>"; };
+		623490F529437FC600BF71D9 /* LevelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
+		623490F629437FC600BF71D9 /* LevelsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelsViewController.xib; sourceTree = "<group>"; };
+		623490FA29437FDA00BF71D9 /* LengthsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthsViewController.swift; sourceTree = "<group>"; };
+		623490FB29437FDA00BF71D9 /* LengthsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LengthsViewController.xib; sourceTree = "<group>"; };
+		623490FF29437FF000BF71D9 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		6234910029437FF000BF71D9 /* QuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+		62554D6D29433F8200D21C64 /* Math4Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Math4Life.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62554D7029433F8200D21C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62554D7229433F8200D21C64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62554D7929433F8C00D21C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62554D7C29433F8C00D21C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62554D7E29433F8C00D21C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62554D8D294347D800D21C64 /* MathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathViewController.swift; sourceTree = "<group>"; };
+		62554D8E294347D800D21C64 /* MathViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MathViewController.xib; sourceTree = "<group>"; };
+		62554D92294347EA00D21C64 /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
+		62554D93294347EA00D21C64 /* GoalsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalsViewController.xib; sourceTree = "<group>"; };
+		62554D972943480200D21C64 /* SprintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintsViewController.swift; sourceTree = "<group>"; };
+		62554D982943480200D21C64 /* SprintsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SprintsViewController.xib; sourceTree = "<group>"; };
+		62554D9C2943481700D21C64 /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
+		62554D9D2943481700D21C64 /* LeaderBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeaderBoardViewController.xib; sourceTree = "<group>"; };
+		62554DAE2943544300D21C64 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		62554DAF2943544300D21C64 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		62554DB52943638300D21C64 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		62554DBB2943691F00D21C64 /* CommonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTableViewCell.swift; sourceTree = "<group>"; };
+		62554DBC2943691F00D21C64 /* CommonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommonTableViewCell.xib; sourceTree = "<group>"; };
+		625D724B294A0EA500885D6A /* FunctionsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsHelper.swift; sourceTree = "<group>"; };
+		6263D0BC2944640000AC97A9 /* CompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteViewController.swift; sourceTree = "<group>"; };
+		6263D0BD2944640000AC97A9 /* CompleteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompleteViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62554D6A29433F8200D21C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6217E569294A13080033AA90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				623490E629436D6900BF71D9 /* Math4LifeDataModel.swift */,
+				625D724B294A0EA500885D6A /* FunctionsHelper.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		623490E929437F3B00BF71D9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				62554DBC2943691F00D21C64 /* CommonTableViewCell.xib */,
+				62554DBB2943691F00D21C64 /* CommonTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		623490EC29437F5400BF71D9 /* MathViewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				62554D8E294347D800D21C64 /* MathViewController.xib */,
+				62554D8D294347D800D21C64 /* MathViewController.swift */,
+				623490F329437F9F00BF71D9 /* OperationViewController */,
+				6234910429437FF900BF71D9 /* LevelsViewController */,
+				623491062943800B00BF71D9 /* LengthViewController */,
+				623491082943801700BF71D9 /* QuestionViewController */,
+				6263D0C12944640400AC97A9 /* CompleteViewController */,
+			);
+			path = MathViewcontroller;
+			sourceTree = "<group>";
+		};
+		623490F329437F9F00BF71D9 /* OperationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				623490EF29437F9600BF71D9 /* OperationViewController.xib */,
+				623490EE29437F9600BF71D9 /* OperationViewController.swift */,
+			);
+			path = OperationViewController;
+			sourceTree = "<group>";
+		};
+		6234910429437FF900BF71D9 /* LevelsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				623490F629437FC600BF71D9 /* LevelsViewController.xib */,
+				623490F529437FC600BF71D9 /* LevelsViewController.swift */,
+			);
+			path = LevelsViewController;
+			sourceTree = "<group>";
+		};
+		623491062943800B00BF71D9 /* LengthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				623490FB29437FDA00BF71D9 /* LengthsViewController.xib */,
+				623490FA29437FDA00BF71D9 /* LengthsViewController.swift */,
+			);
+			path = LengthViewController;
+			sourceTree = "<group>";
+		};
+		623491082943801700BF71D9 /* QuestionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6234910029437FF000BF71D9 /* QuestionViewController.xib */,
+				623490FF29437FF000BF71D9 /* QuestionViewController.swift */,
+			);
+			path = QuestionViewController;
+			sourceTree = "<group>";
+		};
+		62554D6429433F8100D21C64 = {
+			isa = PBXGroup;
+			children = (
+				62554D6F29433F8200D21C64 /* Math4Life */,
+				62554D6E29433F8200D21C64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62554D6E29433F8200D21C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62554D6D29433F8200D21C64 /* Math4Life.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62554D6F29433F8200D21C64 /* Math4Life */ = {
+			isa = PBXGroup;
+			children = (
+				62554D7029433F8200D21C64 /* AppDelegate.swift */,
+				62554D7229433F8200D21C64 /* SceneDelegate.swift */,
+				6217E569294A13080033AA90 /* Resources */,
+				62554DAB29434B3C00D21C64 /* SpalshScreen */,
+				62554DB8294368A900D21C64 /* TabBar */,
+				62554D7929433F8C00D21C64 /* Assets.xcassets */,
+				62554D7B29433F8C00D21C64 /* LaunchScreen.storyboard */,
+				62554D7E29433F8C00D21C64 /* Info.plist */,
+			);
+			path = Math4Life;
+			sourceTree = "<group>";
+		};
+		62554DA12943481C00D21C64 /* LeaderBoard */ = {
+			isa = PBXGroup;
+			children = (
+				62554D9D2943481700D21C64 /* LeaderBoardViewController.xib */,
+				62554D9C2943481700D21C64 /* LeaderBoardViewController.swift */,
+			);
+			path = LeaderBoard;
+			sourceTree = "<group>";
+		};
+		62554DA3294348A900D21C64 /* Sprints */ = {
+			isa = PBXGroup;
+			children = (
+				62554D982943480200D21C64 /* SprintsViewController.xib */,
+				62554D972943480200D21C64 /* SprintsViewController.swift */,
+			);
+			path = Sprints;
+			sourceTree = "<group>";
+		};
+		62554DA629434AF400D21C64 /* Goals */ = {
+			isa = PBXGroup;
+			children = (
+				62554D93294347EA00D21C64 /* GoalsViewController.xib */,
+				62554D92294347EA00D21C64 /* GoalsViewController.swift */,
+			);
+			path = Goals;
+			sourceTree = "<group>";
+		};
+		62554DA929434AFF00D21C64 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				623490EC29437F5400BF71D9 /* MathViewcontroller */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		62554DAB29434B3C00D21C64 /* SpalshScreen */ = {
+			isa = PBXGroup;
+			children = (
+				62554DAF2943544300D21C64 /* SplashViewController.xib */,
+				62554DAE2943544300D21C64 /* SplashViewController.swift */,
+			);
+			path = SpalshScreen;
+			sourceTree = "<group>";
+		};
+		62554DB8294368A900D21C64 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				62554DB52943638300D21C64 /* TabBarViewController.swift */,
+				623490E929437F3B00BF71D9 /* TableViewCell */,
+				62554DA929434AFF00D21C64 /* Math */,
+				62554DA629434AF400D21C64 /* Goals */,
+				62554DA3294348A900D21C64 /* Sprints */,
+				62554DA12943481C00D21C64 /* LeaderBoard */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		6263D0C12944640400AC97A9 /* CompleteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6263D0BD2944640000AC97A9 /* CompleteViewController.xib */,
+				6263D0BC2944640000AC97A9 /* CompleteViewController.swift */,
+			);
+			path = CompleteViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62554D6C29433F8200D21C64 /* Math4Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62554D8129433F8C00D21C64 /* Build configuration list for PBXNativeTarget "Math4Life" */;
+			buildPhases = (
+				62554D6929433F8200D21C64 /* Sources */,
+				62554D6A29433F8200D21C64 /* Frameworks */,
+				62554D6B29433F8200D21C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Math4Life;
+			productName = Math4Life;
+			productReference = 62554D6D29433F8200D21C64 /* Math4Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62554D6529433F8100D21C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					62554D6C29433F8200D21C64 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 62554D6829433F8100D21C64 /* Build configuration list for PBXProject "Math4Life" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62554D6429433F8100D21C64;
+			productRefGroup = 62554D6E29433F8200D21C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62554D6C29433F8200D21C64 /* Math4Life */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62554D6B29433F8200D21C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6263D0BF2944640000AC97A9 /* CompleteViewController.xib in Resources */,
+				62554D90294347D800D21C64 /* MathViewController.xib in Resources */,
+				62554D7D29433F8C00D21C64 /* LaunchScreen.storyboard in Resources */,
+				6234910229437FF000BF71D9 /* QuestionViewController.xib in Resources */,
+				62554D9F2943481700D21C64 /* LeaderBoardViewController.xib in Resources */,
+				623490F829437FC600BF71D9 /* LevelsViewController.xib in Resources */,
+				62554DB12943544300D21C64 /* SplashViewController.xib in Resources */,
+				62554DBE2943691F00D21C64 /* CommonTableViewCell.xib in Resources */,
+				623490FD29437FDA00BF71D9 /* LengthsViewController.xib in Resources */,
+				62554D7A29433F8C00D21C64 /* Assets.xcassets in Resources */,
+				62554D9A2943480200D21C64 /* SprintsViewController.xib in Resources */,
+				62554D95294347EA00D21C64 /* GoalsViewController.xib in Resources */,
+				623490F129437F9600BF71D9 /* OperationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62554D6929433F8200D21C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623490F029437F9600BF71D9 /* OperationViewController.swift in Sources */,
+				62554DB62943638300D21C64 /* TabBarViewController.swift in Sources */,
+				6234910129437FF000BF71D9 /* QuestionViewController.swift in Sources */,
+				62554D9E2943481700D21C64 /* LeaderBoardViewController.swift in Sources */,
+				623490F729437FC600BF71D9 /* LevelsViewController.swift in Sources */,
+				62554D8F294347D800D21C64 /* MathViewController.swift in Sources */,
+				62554D7129433F8200D21C64 /* AppDelegate.swift in Sources */,
+				623490FC29437FDA00BF71D9 /* LengthsViewController.swift in Sources */,
+				6263D0BE2944640000AC97A9 /* CompleteViewController.swift in Sources */,
+				625D724C294A0EA500885D6A /* FunctionsHelper.swift in Sources */,
+				62554D992943480200D21C64 /* SprintsViewController.swift in Sources */,
+				62554D7329433F8200D21C64 /* SceneDelegate.swift in Sources */,
+				62554DBD2943691F00D21C64 /* CommonTableViewCell.swift in Sources */,
+				62554D94294347EA00D21C64 /* GoalsViewController.swift in Sources */,
+				623490E729436D6900BF71D9 /* Math4LifeDataModel.swift in Sources */,
+				62554DB02943544300D21C64 /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62554D7B29433F8C00D21C64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62554D7C29433F8C00D21C64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62554D7F29433F8C00D21C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62554D8029433F8C00D21C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62554D8229433F8C00D21C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VG2S98FFS9;
+				INFOPLIST_FILE = Math4Life/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shivakumarpgk.Math4Life;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62554D8329433F8C00D21C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VG2S98FFS9;
+				INFOPLIST_FILE = Math4Life/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shivakumarpgk.Math4Life;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62554D6829433F8100D21C64 /* Build configuration list for PBXProject "Math4Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62554D7F29433F8C00D21C64 /* Debug */,
+				62554D8029433F8C00D21C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62554D8129433F8C00D21C64 /* Build configuration list for PBXNativeTarget "Math4Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62554D8229433F8C00D21C64 /* Debug */,
+				62554D8329433F8C00D21C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62554D6529433F8100D21C64 /* Project object */;
+}
